@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 
+
 namespace GothicMath.Test
 {
     public class GothicMathTest
@@ -8,7 +9,7 @@ namespace GothicMath.Test
         [Fact]
         public void Test1()
         {
-            
+            var a = GothicMath.Go
         }
     }
 }

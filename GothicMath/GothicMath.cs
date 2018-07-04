@@ -1,9 +1,9 @@
 ﻿using System;
 using OpenTK;
 
-namespace GothicMath
+namespace GothicMathLib
 {
-    class GothicMath
+    public static class GothicMath
     {
         // Расчёт луча
         //

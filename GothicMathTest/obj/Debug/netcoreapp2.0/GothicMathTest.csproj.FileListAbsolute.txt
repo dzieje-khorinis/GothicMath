@@ -1,0 +1,16 @@
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMathTest.deps.json
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMathTest.runtimeconfig.json
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMathTest.runtimeconfig.dev.json
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMathTest.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMathTest.pdb
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMath.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/bin/Debug/netcoreapp2.0/GothicMath.pdb
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.csproj.CoreCompileInputs.cache
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.AssemblyInfoInputs.cache
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.AssemblyInfo.cs
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.csproj.CopyComplete
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.dll
+/Users/artur/dev/dzieje/GothicMath/GothicMathTest/obj/Debug/netcoreapp2.0/GothicMathTest.pdb

@@ -11,6 +11,5 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GothicMath\GothicMath.csproj" />
-    <ProjectReference Include="..\GothicMath\GothicMath.csproj" />
   </ItemGroup>
 </Project>
