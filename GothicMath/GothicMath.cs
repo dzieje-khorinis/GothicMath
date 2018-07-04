@@ -6,6 +6,7 @@ namespace GothicMath
     class GothicMath
     {
         // Расчёт луча
+        //
         public static void MouseRay(int mouseX, int mouseY, int screenWidth, int screenHeight, Matrix4 ViewMatrix, Matrix4 ProjectionMatrix, out Vector3 _start, out Vector3 _end)
         {
             Vector3 mousePosA = new Vector3(mouseX, mouseY, -1f);
