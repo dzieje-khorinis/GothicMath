@@ -1,6 +1,6 @@
 GothicMath/bin/*
 GothicMath/obj/*
-GothicMath.Test/bin/*
-GothicMath.Test/obj/*
+GothicMathTest/bin/*
+GothicMathTest/obj/*
 .DS_Store
 .idea
