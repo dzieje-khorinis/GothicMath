@@ -3,3 +3,4 @@ GothicMath/obj/*
 GothicMath.Test/bin/*
 GothicMath.Test/obj/*
 .DS_Store
+.idea
