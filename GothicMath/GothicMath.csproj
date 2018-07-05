@@ -3,7 +3,10 @@
     <VersionPrefix>1.0.12</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="OpenTK" Version="3.0.0" />
-  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
 </Project>
