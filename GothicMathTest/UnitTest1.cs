@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using GothicMathLib;
+using OpenTK;
 
 namespace GothicMathTest
 {
