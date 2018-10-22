@@ -7,16 +7,16 @@ namespace GothicMathTest
     public class UnitTest1
     {
         [Fact]
-        public void TestMathAngle()
+        public void testMathAngle()
         {
             var zenMathReturn    = GothicMath.getAngle(Matrix4.Zero);
-            var expect           = new Vector4(0, 0, 0, (float)(120 * (Math.PI / 180)));	//Return radians!
+            var expect           = new Vector4(0, 0, 0, (float)(120 * (Math.PI / 180)));
 
             Assert.Equal(zenMathReturn, expect);
         }
 
         [Fact]
-        public void TestEulerAngles_FromMatrix3()
+        public void testEulerAnglesFromMatrix3()
         {
             var zenRet = GothicMath.getEulerAngle(Matrix3.Zero);
             var expect = new Vector3(0, 0, 0);
@@ -25,12 +25,12 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void Test_MatrixFromEulerAngle()
+        public void testMatrixFromEulerAngle()
         {
             var zenRet = GothicMath.getRotateMatrixFromEulerAngle(Vector3.One);
             var expect = Matrix4.Identity;
 
-			expect.M11 = 0.88775f   ;
+            expect.M11 = 0.88775f   ;
             expect.M12 = -0.072075f ;
             expect.M13 = -0.454649f ;
 
@@ -42,7 +42,8 @@ namespace GothicMathTest
             expect.M32 = -0.953721f;
             expect.M33 = 0.291927f;
 
-           for(int i = 0; i < 4; i++)
+            // rounding numbers for proper operation
+			for(int i = 0; i < 4; i++)
             {
                 for(int j = 0; j < 4; j++)
                 {
@@ -55,7 +56,7 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void TestExtractMatrixToEulerAngles()
+        public void testExtractRotationToEulerAngles()
         {
             var zenRet = GothicMath.rotationMatrixToEulerAngles(Matrix4.Zero);
             var expect = new Vector3(0, 0, 0);
@@ -64,7 +65,7 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void TestVectorDistance()
+        public void testVectorDistance()
         {
             var zenRet = GothicMath.getDistance(new Vector3(0), Vector3.One);
             var expect = 3;
@@ -73,7 +74,7 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void TestCalcMove()
+        public void testCalculateMove()
         {
             var zenRet = GothicMath.CalcMoveObject(Vector3.Zero, 0.2f, 0.5f);
             var expect = Vector3.Zero;
@@ -82,7 +83,7 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void TestCalcNormal()  
+        public void testCalculateNormal()  
         {
             var zenRet = GothicMath.CalcNormal(Vector3.Zero, new Vector3(120, 20, 50), new Vector3(56, 90, -20));
             var dir = new Vector3(-4900, 5200, 9680);
@@ -92,7 +93,7 @@ namespace GothicMathTest
         }
 
         [Fact]
-        public void TestCalcSize()
+        public void testCalculateScale()
         {
             var zenRet = GothicMath.CalcSizeModel(Vector3.Zero, Vector3.One);
             var expect = Vector3.One;
@@ -102,7 +103,7 @@ namespace GothicMathTest
 
 
         [Fact]
-        public void TestCalcCenter()
+        public void testCalculateCenter()
         {
             var zenRet = GothicMath.CalcCenterModel(Vector3.Zero, Vector3.One);
             var expect = Vector3.One / 2;
